@@ -28,6 +28,6 @@ The [run_analysis.R](./run_analysis.R) script built will complete the following 
 - Create a second, independent tidy data set with the average of each variable for each activity and each subject
 - Write the data set to the tidy_data.txt file.
 
-In this project, the [data from the accelerometer and gyroscope](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) of the Samsung Galaxy S smartphone was collected, worked with the [run_analysis.R](./run_analysis.R) script, and resulted in the [tidy data set](./tidydata.txt). The R version used was the 3.4.3 on Windows 7 Professional.
+In this project, the [data from the accelerometer and gyroscope](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) of the Samsung Galaxy S smartphone was collected, worked with the [run_analysis.R](./run_analysis.R) script, and resulted in the [tidy data set](./tidy_data.txt). The R version used was the 3.4.3 on Windows 7 Professional.
 
 ## Repository Information
