@@ -131,7 +131,19 @@ This identifier can assum the form of 6 possible values:
 
 #Transformations
 
-To go from Raw Data found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), to Tidy Data, the following transformations were applied:
-- 
+To go from Raw Data found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to Tidy Data, the following transformations were made:
+1. Merged the training and the test sets to create one data set.
+2. Extracted measurements with mean or standard deviation on their names and discarded the others.
+3. Used descriptive names for the activity identifiers, replacing the original values (integers from 1 to 6) with them.
+4. Labeled the data set with descriptive variable names
+  - special characters were removed
+  - the `f`and `t` were replaced by `frequency` and `time` respectively
+  - `mean` was replaced by `Mean`
+  - `std`was replaced by `StandardDeviation`
+  - `Mag`, `Acc`, `Gyro` were replaced by `Magnitude`, `Accelerometer`, and `Gyroscope` respectively
+  - `BodyBody` was corrected as `Body`
+  - Added a `-` before X, Y and Z
+5. Created a second, independent tidy data set with the average of each variable for each activity and each subject
+6. Wrote the data set to the tidy_data.txt file.
 
 
