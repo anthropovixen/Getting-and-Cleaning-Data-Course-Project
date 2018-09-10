@@ -15,7 +15,7 @@ This repository contains the following files:
 
 ## Summary
 
-The objective of this exercise was to analyze with R the experimental results captured by the [Human Activity Recognition using Smartphones] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)study.
+The objective of this exercise was to analyze with R the experimental results captured by the [Human Activity Recognition using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) study.
 
 The [run_analysis.R](./run_analysis.R) script built will complete the following steps to transform the data:
 - Load dplyr and data.table packages
