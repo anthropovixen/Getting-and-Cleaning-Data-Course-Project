@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This is the codebook for the Getting and Cleaning Data Course Project from week 4. It relates to the [tidy_data.txt](./tidy_data.txt) file of this repository.
 
@@ -6,20 +6,21 @@ See the [README](./README) file of the repository for more information on this d
 
 The structure of the data set is described in the Data (#Data)section, its variables are listed in the Variables(#Variables) section, and the transformations that happened to the data set are in the Transformations(#Transformations) section.
 
-#Data
+# Data
 
 The tidy data is a data file with space-separated values. The first row contains the names of the variables and the following rows contains the values of those variables.
 
 ```
 tidyData<- read.table(file = "tidydata.txt", head=TRUE)
+```
 
 The data has 180 observations of 81 variables.
 
 ```
 dim(tidyData)
+```
 
-
-#Variables
+# Variables
 
 Each row contains 79 averaged signal measurements per subject and activity.
 
@@ -129,9 +130,9 @@ This identifier can assum the form of 6 possible values:
 * frequencyBodyGyroscopeJerkMagnitudeStandardDeviation
 * frequencyBodyGyroscopeJerkMagnitudeMeanFreq
 
-#Transformations
+# Transformations
 
-To go from Raw Data found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to Tidy Data, the following transformations were made:
+To go from the Raw Data found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to the Tidy Data set, the following transformations were made:
 1. Merged the training and the test sets to create one data set.
 2. Extracted measurements with mean or standard deviation on their names and discarded the others.
 3. Used descriptive names for the activity identifiers, replacing the original values (integers from 1 to 6) with them.
@@ -144,6 +145,8 @@ To go from Raw Data found [here](https://d396qusza40orc.cloudfront.net/getdata%2
   - `BodyBody` was corrected as `Body`
   - Added a `-` before X, Y and Z
 5. Created a second, independent tidy data set with the average of each variable for each activity and each subject
-6. Wrote the data set to the tidy_data.txt file.
+6. Wrote the data set to the tidy_data.txt file
+
+The R script for this transformation can be found [here](./run_analysis.R).
 
 
