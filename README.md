@@ -4,10 +4,10 @@ This is the ReadMe for the repository created for the assignment of "Getting and
 
 This repository contains the following files:
 
-`README.md` overview of the data set and how it was created
-`CodeBook.md` contents of the data set (data, variables and transformations used to generate the data)
-`run_analysis.R` R script used to create the data set
-`tidy_data.txt` the final data set
+- `README.md` overview of the data set and how it was created
+- `CodeBook.md` contents of the data set (data, variables and transformations used to generate the data)
+- `run_analysis.R` R script used to create the data set
+- `tidy_data.txt` the final data set
 
 The objective of this exercise was to analyze with R the experimental results captured by the [Human Activity Recognition using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) study.
 
