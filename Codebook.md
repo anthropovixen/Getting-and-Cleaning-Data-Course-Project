@@ -4,7 +4,7 @@ This is the codebook for the Getting and Cleaning Data Course Project from week 
 
 See the [README](./README) file of the repository for more information on this data set.
 
-The structure of the data set is described in the Data (#data) section, its variables are listed in the Variables (#variables) section, and the transformations that happened to the data set are in the Transformations (#transformations) section.
+The structure of the data set is described in the [Data](#data) section, its variables are listed in the [Variables](#variables) section, and the transformations that happened to the data set are in the [Transformations](#transformations) section.
 
 # Data
 
