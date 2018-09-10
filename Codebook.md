@@ -145,7 +145,7 @@ To go from the Raw Data found [here](https://d396qusza40orc.cloudfront.net/getda
   - `BodyBody` was corrected as `Body`
   - Added a `-` before X, Y and Z
 5. Created a second, independent tidy data set with the average of each variable for each activity and each subject
-6. Wrote the data set to the tidy_data.txt file
+6. Wrote the data set to the [tidy_data.txt](./tidy_data.txt) file
 
 The R script for this transformation can be found [here](./run_analysis.R).
 
